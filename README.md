@@ -1,3 +1,4 @@
+
 # Task-Automation Research Agent (MLOps Experiment 10)
 
 A Streamlit web app that searches the web with DuckDuckGo and summarizes the results into exactly three bullet points using Groq.
@@ -61,3 +62,5 @@ Developer edit → Git push → GitHub Actions → pytest → Docker build → H
 - Search returns no results: retry with a more specific topic.
 - Model returns other than three bullets: retry; the app reports a controlled error instead of pretending the output is valid.
 - Docker command not found: install/start Docker Desktop, or deploy directly using the Hugging Face Docker Space build.
+
+
